@@ -30,6 +30,7 @@
     },
     "dependencies": {
         "react": "*",
-        "react-dom": "*"
+        "moment": "*",
+        "numeral": "*"
     }
 }
