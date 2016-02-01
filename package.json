@@ -1,0 +1,34 @@
+{
+    "name": "educacion",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MilkZoft/educacion.git"
+    },
+    "author": "Carlos Santana",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-core": "*",
+        "babel-loader": "*",
+        "babel-preset-es2015": "*",
+        "babel-preset-react": "*",
+        "babel-preset-stage-0": "*",
+        "bower": "*",
+        "eslint": "*",
+        "gulp-eslint": "*",
+        "gulp-stylus": "*",
+        "gulp": "*",
+        "nib": "*",
+        "webpack-dev-server": "*",
+        "webpack": "*"
+    },
+    "dependencies": {
+        "react": "*",
+        "react-dom": "*"
+    }
+}
