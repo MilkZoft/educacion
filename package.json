@@ -20,6 +20,7 @@
         "babel-preset-stage-0": "*",
         "bower": "*",
         "eslint": "*",
+        "eslint-plugin-react": "*",
         "gulp-eslint": "*",
         "gulp-stylus": "*",
         "gulp": "*",
