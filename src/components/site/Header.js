@@ -5,7 +5,8 @@ class Header extends React.Component {
     render() {
         return (
             <div className="page-header">
-                <div className="logo">Educación.io</div>
+                <div className="logo">
+                    <span className="edu">Edu</span>caci<span className="icon-o">&nbsp;&nbsp;</span>n</div>
                 <Nav />
             </div>
         );
