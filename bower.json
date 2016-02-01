@@ -1,0 +1,9 @@
+{
+    "name": "educacion",
+    "version": "0.0.1",
+    "author": "Carlos Santana",
+    "license": "MIT",
+    "dependencies": {
+        "font-awesome": "latest"
+    }
+}
