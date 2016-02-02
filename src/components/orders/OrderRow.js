@@ -1,13 +1,20 @@
 import React from 'react';
 import { toMoney, toDateTime, toTitleCase } from '../../lib/formatters';
 
+var rowsCount = 0;
+var ordersOdd = '';
+var rowClass;
+
 class OrderRow extends React.Component {
     render() {
-        const { order } = this.props;;
+        const { order } = this.props;
         let products = order.products.map((p) => p.name).join(', ');
 
+        rowsCount++;
+        rowClass = (rowsCount % 2 !== 0) ? 'odd' : '';
+
         return (
-            <tr className="order">
+            <tr className={ rowClass }>
                 <td>{ order.reference }</td>
                 <td>{ order.customer }</td>
                 <td className="sorted-by">{ toDateTime(order.orderedAt) }</td>

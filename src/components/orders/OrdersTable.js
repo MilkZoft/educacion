@@ -14,7 +14,7 @@ class OrdersTable extends React.Component {
             <table className="orders-table">
                 <thead>
                     <tr>
-                        <th>Order #</th>
+                        <th>Order</th>
                         <th>Customer</th>
                         <th className="sorted-by">Ordered at</th>
                         <th>Product(s)</th>
