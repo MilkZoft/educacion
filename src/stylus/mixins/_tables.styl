@@ -1,0 +1,42 @@
+makeTable($borderColor = false, $tHeadColor = $gray, $bgColor = transparent, $oddBgColor = $almostWhite, $fontSize = 14px)
+    if $borderColor != false
+        border($borderColor)
+
+    center()
+    border-collapse collapse
+    border-spacing 0
+    empty-cells show
+
+    thead
+        background-color $bgColor
+        border-bottom 1px solid $borderColor
+        color $tHeadColor
+        font-size $fontSize
+        text-align center
+        vertical-align bottom
+
+    tbody
+        font-size $fontSize
+
+    td
+        &:first-child
+            border-left-width 0
+
+        border-bottom 1px solid $almostWhite
+        background-color transparent
+        padding 10px
+        text-align center
+
+    th
+        &:first-child
+            border-left-width 0
+
+        //border-left 1px solid $gray
+        font-size inherit
+        margin 0
+        overflow visible
+        padding .5em 1em
+
+    .odd
+        td
+            //background-color $oddBgColor
